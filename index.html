@@ -1,0 +1,354 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>emoji page</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+<link rel="manifest" href="img/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="">
+<meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <style>
+
+
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+	  <style type="text/css">
+		  a{text-decoration: none;}
+	  </style>
+	</head>
+  <body>
+
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <img src="img/logo.png" width="3%">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/header/header1.jpg" width="100%">
+      
+      </div>
+      <div class="carousel-item">
+        <img src="img/header/header2.png" width="100%">
+		 <rect width="100%" height="100%"/>
+
+       
+      </div>
+      <div class="carousel-item">
+		<img src="img/header/header3.png" width="100%">
+        <rect width="100%" height="100%"/>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+ </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/001-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/001-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+	<!-- /.col-lg-4 -->
+    
+		<div class="col-lg-3 hov-anim-box">
+         <img src="img/002-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/002-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/003-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/003-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/004-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/004-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/005-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/005-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/006-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/006-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/007-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/007-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/008-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/008-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/009-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/009-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/010-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/010-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+     <div class="col-lg-3 hov-anim-box">
+         <img src="img/011-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/011-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		
+		<!-- /.col-lg-4 -->
+      <div class="col-lg-3 hov-anim-box">
+         <img src="img/012-static.gif" alt="" class="static"
+	 	width="50%" height="100%">
+		 <img src="img/012-animated.gif" alt="" class="animated"
+	 	width="50%" height="100%">
+       
+      </div>
+		<!-- /.col-lg-4 -->
+		
+		
+		<!-- /.col-lg-4 -->
+		
+
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1" text align="center">Why did I make it?</h2>
+		  
+      </div>
+      <div class="col-md-5">
+        <a href="img/"><img src="img/cover1.jpg" onmouseover="this.src='img/hover.jpg';" onmouseout="this.src='img/cover1.jpg';" width="100%"
+							height="100%"/><rect width="50%" height="50%"/></a>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading fw-normal lh-1" text align="center">SKETCH</h2>
+        <p class="lead" text align="center"></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+       <img src="img/row2.jpg" width="100%" height="100%"><rect width="100%" height="100%"/>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+	<div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1" text align="center">MY PROFILE </h2>
+		  <br>
+        <p class="lead" text align="center">Kim YeJin</p>
+		<p class="lead" text align="center">00.02.03</p>
+		<p class="lead" text align="center">ESFP</p>
+		<p class="lead" text align="center">DCD 19</p>
+	    <br>
+	
+		<br>
+		  <a href="https://blog.naver.com/flal2884"><p class="lead" text align="center">
+			MY BLOG
+		</p></a>
+		  <a href="https://mail.naver.com/"><p class="lead" text align="center">
+			E-MAIL
+		</p></a>
+		<p class="lead" text align="center">INSTAGRAM ▶</p>
+		  
+      </div>
+		
+      <div class="col-md-5">
+        <a href="https://www.instagram.com/xx.02.03/"><img src="img/row3.jpg" width="100%"></a><rect width="100%" height="100%"/><title>Hello</title>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>copyright&copy; All rights reserved by Kim yejin </p>
+  </footer>
+	  
+
+</main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
